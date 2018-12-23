@@ -58,14 +58,14 @@ body{
 }
 .header .menu .menu-list a:hover{
     background-color: #66b3ff;
-    color: white;
+    color: black;
 }
 .header .menu .menu-list a.active {
     background-color: #66b3ff;
     color: white;
 }
 .header .menu .place-n{
-    width: 340px;
+    width: 320px;
     display: inline-block;
     background-color: black;
 }
@@ -78,72 +78,101 @@ body{
     
 }
 .header .menu a:hover {
-    background-color: black;
+    background-color: #66b3ff;
 }
 
 .content{
-    height:600px;
-    background-color: white;
+    height:100%;
+    background-color: black;
 }
 
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style the header */
 header {
-    background-color: #666;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
+  background-color: #000d33;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  height: 150px;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-    float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
-    padding: 20px;
+  float: left;
+  width: 20%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
 }
 
 /* Style the list inside the menu */
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+  height: 460px;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.rooms {
+  
+  color: #000d33;
+  font-size: 30px;
+  margin: 10px;
+}
+.vertical-menu a.active {
+  background-color: blue; /* Add a green color to the "active/current" link */
+  color: white;
 }
 
 article {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 600px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
 section:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Style the footer */
 footer {
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-    nav, article {
-        width: 100%;
-        height: auto;
-    }
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
 
 

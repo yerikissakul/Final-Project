@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+    background-color: white;
+    padding: 0px;
+}
+.header {
+    background-color: #000d33;
+}
+.header .top-panel .wrap1200 .social-link {
+    text-align: right;
+    margin: 0px;
+    height: 45px;
+    padding-right: 50px;
+}
+.header .top-panel .wrap1200 .social-link .fa {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.header .top-panel .wrap1200 .social-link a{
+    text-decoration: none;
+    color: white;
+}
+.header .top-panel .wrap1200 .social-link a:hover{
+    color: #66b3ff;
+}
+.header .menu .menu-logo .sdu-img{
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+.sdu-img {
+    margin-top: 10px;
+}
+.header .menu {
+    display: inline-block;
+
+}
+.header .menu a{
+    text-decoration: none;
+}
+.header .menu .menu-logo {
+    margin: 3px;
+}
+.header .menu .menu-list{
+    display: inline-block;
+}
+.header .menu .menu-list a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.header .menu .menu-list li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.header .menu .menu-list a:hover{
+    background-color: #66b3ff;
+    color: white;
+}
+.header .menu .menu-list a.active {
+    background-color: #66b3ff;
+    color: white;
+}
+.header .menu .place-n{
+    width: 340px;
+    display: inline-block;
+    background-color: black;
+}
+.header .menu .b-reg {
+    background-color: #66b3ff;
+    color: white;
+    font-weight: 5px;
+    display: inline-block;
+    padding: 10px;
+    
+}
+.header .menu a:hover {
+    background-color: black;
+}
+
+.content{
+    height:600px;
+    background-color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2f2f1e;
+  padding: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+.grid-item:hover{
+    background-color: blue;
+    
+
+}
+.grid-container .grid-item a{
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: #000d33;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+
+}
+.footer .copyright {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF; /*white*/
+}
+.footer .copyright a {
+    color: #66b3ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer .footer-content {
+    display: table;
+}
+.footer .footer-content .contacts {
+    display: table-cell;
+    width: 25%;
+    color: #FFFFFF; /*white*/
+}
+.footer .footer-content .contacts h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footer .footer-content .contacts div {
+    font-size: 16px;
+}
+.footer .footer-content .contacts div div {
+    margin-bottom: 24px;
+}
+.footer .footer-content .contacts div div i {
+    margin-right: 8px;
+    color: #66b3ff;
+}
+.footer .footer-content .contacts div div a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer .footer-content .contacts div div a:hover {
+    color: #66b3ff;
+}
+.footer .footer-content .contacts .footer-social-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #FFF;
+    margin-right: 5px;
+}
+.footer .footer-content .contacts .footer-social-links a:hover,
+.footer .footer-content .contacts .footer-social-links a:active {
+    border: 1px solid #66b3ff;
+    color: #66b3ff;
+}
+.footer .footer-content .contacts .subscribe {
+    margin-top: 30px;
+}
+.footer .footer-content .contacts .subscribe form input#email {
+    border: 1px solid #CCCCCC;
+    font-size: 16px;
+    padding: 4px;
+}
+.footer .footer-content .contacts .subscribe form .submit-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #66b3ff;
+    color: #FFFFFF; /*white*/
+    padding: 6px 8px;
+    border: none;
+    cursor: pointer;
+}
+.footer .footer-content .contacts .subscribe form .submit-btn:hover {
+    background-color: black;
+}
+.footer .footer-content .footer-menu {
+    display: table-cell;
+    width: 22%;
+    padding-left: 3%;
+    color: #FFFFFF;
+}
+.footer .footer-content .footer-menu h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer .footer-content .footer-menu ul.menu li {
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.footer .footer-content .footer-menu ul.menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFFFFF;
+}
+.footer .footer-content .footer-menu ul.menu li a:hover,
+.footer .footer-content .footer-menu ul.menu li a.active {
+    background-color: #66b3ff;
+}
+.footer .footer-content .footer-instagram {
+    display: table-cell;
+    width: 50%;
+    color: #FFFFFF;
+}
+.footer .footer-content .footer-instagram h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
